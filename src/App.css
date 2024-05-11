@@ -1,0 +1,55 @@
+.noteItem {
+	padding: 1rem;
+	user-select: none;
+	cursor: move;
+	max-width: 250px;
+	word-break: break-all;
+	background: #fffd93;
+	border-radius: 0.5rem;
+	display: flex;
+	align-items: start;
+	gap: 0.5rem;
+}
+
+.noteList {
+	position: relative;
+	height: 90vh;
+	box-shadow: 0px 0px 6px #ddd;
+}
+
+.addNote {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 8vh;
+	gap: 1rem;
+}
+
+input {
+	padding: 0.5rem;
+  padding-left: 1rem;
+	font-size: 1rem;
+	border-radius: 1rem;
+	outline: none;
+	border: 1px solid #ddd;
+	box-shadow: 0px 0px 6px #ddd;
+}
+
+input:hover {
+	outline: 1px solid #fffd93;
+}
+
+button {
+	border-radius: 1rem;
+	border: 1px solid #e1e1e1;
+	padding: 0.6rem;
+	cursor: pointer;
+	font-size: 1rem;
+	color: #3e3e3e;
+	box-shadow: 0px 0px 4px #ddd;
+}
+
+button:hover {
+	transform: scale(1.04);
+	transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+}
